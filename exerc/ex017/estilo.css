@@ -1,0 +1,12 @@
+body{
+	font: normal 16px Arial, Verdana, serif;
+}
+
+h1{
+	text-align: center;
+}
+
+p{
+	text-align: justify;
+	text-indent: 10px;
+}

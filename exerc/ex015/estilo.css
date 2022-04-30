@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+	background-color: gray;
+	font-family: arial;
+	font-size: 20;
+}
+			
+h1{
+	color: darkblue;
+}
+			
+h2{
+	color: darkred;
+}
+			
+p{
+	text-align: justfy;
+}

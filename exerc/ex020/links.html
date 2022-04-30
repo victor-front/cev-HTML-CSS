@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial scale=1.0">
+		<link rel="stylesheet" href="estilo.css">
+		<link rel="shortcut icon" href="favicon.ico">
+		<title>Links</title>
+		<style>
+			/*	SELETORES PERSONALIZADOS
+			
+				# 	=	 id
+				. 	=	 class
+				: 	=	 pseudo-class
+				:: 	=	 pseudo-elemens
+				> 	=	 clildren
+			
+			*/
+			
+			body{
+				font-family: Arial, Helvetica, sans-serif;
+			}
+			
+			a{
+				color: red;
+				text-decoration: none;
+				font-weight: bold;
+			}
+			
+			a:visited{
+				color: darkred;
+			}
+			
+			a:hover{
+				color: black;
+				text-decoration: underline;
+			}
+			
+			a:active{
+				color: yellow;
+			}
+			
+			.especial::after{
+				content: ' [link]';
+				text-decoration: none;
+				font-weight: normal;
+				color: darkgreen;
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<h1>Personalizando Links</h1>
+		<ul>
+			<li><a href="https://www.youtube.com" rel="external" target="_blank">Youtube</a></li>
+			<li><a href="https://youtu.be/ZLeZZfqqAKQ" rel="external" target="_blank" class="especial">Sei la</a></li>
+			<li><a href="https://www.discord.com" rel="external" target="_blank">Discord</a></li>
+		</ul>
+	</body>
+</html>
