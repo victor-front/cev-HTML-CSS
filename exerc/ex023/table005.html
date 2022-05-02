@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			body{
+				font-family: Arial, Helvetica, Verdana, sans-serif;
+			}
+			
+			table{
+				border-collapse: collapse;
+			}
+			
+			caption{
+				font-size: 1.3em;
+				font-weight: bold;
+				padding: 8px;
+			}
+			
+			th, td{
+				border: 2px solid #191919;
+				padding: 8px;
+			}
+			
+			col.cnome{
+				background-color: yellow;
+			}
+			
+			col.csexo{
+				background-color: pink;
+			}
+			
+			col.cgrupo{
+				background-color: green;
+			}
+		</style>
+		<title>Exercícios de Tabelas</title>
+	</head>
+	<body>
+		<h1>Exercício de Tabelas</h1>
+		<table>
+			<colgroup>
+				<col class="cnome">
+				<col class="csexo">
+				<col class="cgrupo" span="2">
+			</colgroup>
+			<caption>Cadastro</caption>
+			<tr>
+				<th scope="col">Nome</th>
+				<th scope="col">Sexo</th>
+				<th scope="col">Idade</th>
+				<th scope="col">Profissão</th>
+			</tr>
+			<tr>
+				<td>Julia</td>
+				<td>Feminino</td>
+				<td>24</td>
+				<td>Programadora</td>
+			</tr>
+			<tr>
+				<td>Juan</td>
+				<td>Masculino</td>
+				<td>32</td>
+				<td>Economista</td>
+			</tr>
+			<tr>
+				<td>Alexandre</td>
+				<td>Masculino</td>
+				<td>27</td>
+				<td>Jogador</td>
+			</tr>
+			<tr>
+				<td>Luna</td>
+				<td>Feminino</td>
+				<td>25</td>
+				<td>Designer</td>
+			</tr>
+			<tr>
+				<td>Bruna</td>
+				<td>Feminino</td>
+				<td>30</td>
+				<td>Modelo</td>
+			</tr>
+		</table>
+	</body>
+</html>
