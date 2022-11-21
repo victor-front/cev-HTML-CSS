@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<script defer>
+			function clicked(){
+				window.document.getElementById('saida').innerHTML += "<p>Você clicou!</p>";
+			}
+		</script>
+		<title>JavaScript</title>
+	</head>
+	<body>
+		<a href="#" rel="external" target="_self" onclick="clicked()">Clique em mim!</a>
+		<div class="saida" id="saida">
+		</div>
+	</body>
+</html>
