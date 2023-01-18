@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<title>Radio</title>
+	</head>
+	<body>
+		<h1>Teste de checkbox e radiobox</h1>
+		<form action="cadastro.php" method="get">
+			<fieldset>
+				<legend>Gênero</legend>
+				<input type="radio" name="genero" id="homem"><label for="homem">Homem</label><br><!--Todo input de radio tem que ter o mesmo name mas o id diferente.-->
+				<input type="radio" name="genero" id="mulher"><label for="mulher">Mulher</label><br>
+				<input type="radio" name="genero" id="nb"><label for="nb">Não Binário</label><br>
+			</fieldset>
+			<fieldset>
+				<legend>Jogos favoritos</legend>
+				<input type="checkbox" name="pokemon" id="pokemon"><label for="pokemon">Pokémon Fire Red</label><br>
+				<input type="checkbox" name="sonic" id="sonic"><label for="sonic">Sonic The Hedgehog</label><br>
+				<input type="checkbox" name="aoc" id="aoc"><label for="aoc">Age of Civilisations 2</label><br>
+				<input type="checkbox" name="nation" id="nation"><label for="nation">Nation States</label><br>
+				<input type="checkbox" name="minecraft" id="minecraft"><label for="minecraft">Minecraft</label><br>
+			</fieldset>
+			<p>
+				<input type="submit" value="Enviar">
+				<input type="reset" value="Limpar">
+			</p>
+		</form>
+	</body>
+</html>
