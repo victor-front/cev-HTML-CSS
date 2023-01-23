@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<title>Dao</title>
+	</head>
+	<body>
+		<h1>Exemplo</h1>
+		<form action="cadastro.php" method="get" autocomplete="on">
+			<p>
+				<label for="num">Número: </label>
+				<input type="range" name="num" id="inum" min="0" max="10" oninput="val.innerHTML = Number(num.value)">
+				<output id="val">5</output>
+			</p>
+			<p>
+				<input type="submit">
+				<input type="reset">
+			</p>
+		</form>
+	</body>
+</html>

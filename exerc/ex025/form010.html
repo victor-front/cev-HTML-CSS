@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<script defer src="script001.js"></script>
+		<title>Ai</title>
+	</head>
+	<body>
+		<h1>Peo</h1>
+		<form action="cadastro.php" method="get" autocomplete="on">
+			<p>
+				<label for="ano">Em que ano nascestes?</label>
+				<input type="number" name="ano" id="ano" min="1900" max="2023" value="2023" oninput="calcidade()">
+			</p>
+			<p>
+				<label for="idade">Ano:</label>
+				<output id="idade">0</output>
+			</p>
+			<p>
+				<input type="submit">
+				<input type="reset">
+			</p>
+		</form>
+	</body>
+</html>
