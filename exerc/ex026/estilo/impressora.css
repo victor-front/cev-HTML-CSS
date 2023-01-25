@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:  border-box;
+}
+
+html{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+menu{
+	display: none;
+}
+
+article{
+	width: 100%;
+}
+
+article::after{
+	content: 'Esse artículo foi impresso.';
+}
