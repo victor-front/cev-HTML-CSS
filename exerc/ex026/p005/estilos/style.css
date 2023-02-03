@@ -20,8 +20,22 @@ header h1{
 	text-align: center;
 }
 
-menu{
+i#menu{
+	background-color: #222;
 	display: block;
+	text-align: center;
+	color: #ccc;
+	padding: 10px;
+}
+
+i#menu:hover{
+	cursor: pointer;
+	background-color: #333;
+	color: #ddd;
+}
+
+menu{
+	display: none;
 }
 
 menu ul{
