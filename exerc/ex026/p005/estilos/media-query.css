@@ -1,0 +1,23 @@
+@charset: "UTF-8";
+
+@media screen and (min-width: 768px){
+	i#menu{
+		display: none;
+	}
+	
+	menu{
+		display: block;
+	}
+	
+	menu ul li{
+		display: inline-block;
+	}
+	
+	menu ul li a{
+		border-radius: 10px;
+	}
+	
+	main{
+		max-width: 768px;
+	}
+}
