@@ -3,6 +3,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px){ /* Tablet */
 	section#login{
 		width: 90vw;
+		height: 500px;
 	}
 	
 	section#login div#imagem{
@@ -16,6 +17,10 @@
 		width: 70%;
 	}
 	
+	form label{
+		display: inline;
+	}
+	
 	body{
 		background-image: linear-gradient(to top, #7C151D, #AA7939);
 	}
@@ -24,6 +29,7 @@
 @media screen and (min-width: 992px){
 	section#login{
 		width: 950px;
+		height: 500px;
 	}
 	
 	section#login div#imagem{
@@ -35,6 +41,10 @@
 	section#login div#formulario{
 		float: left;
 		width: 50%;
+	}
+	
+	form label{
+		display: inline;
 	}
 	
 	body{
