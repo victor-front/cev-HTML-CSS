@@ -3,13 +3,13 @@
 @media screen and (min-width: 768px) and (max-width: 992px){ /* Tablet */
 	section#login{
 		width: 90vw;
-		height: 500px;
+		min-height: 280px;
 	}
 	
 	section#login div#imagem{
 		float: left;
 		width: 30%;
-		height: 100%;
+		min-height: 320px;
 	}
 	
 	section#login div#formulario{
@@ -17,9 +17,11 @@
 		width: 70%;
 	}
 	
+	/* 
 	form label{
 		display: inline;
 	}
+	*/
 	
 	body{
 		background-image: linear-gradient(to top, #7C151D, #AA7939);
@@ -29,13 +31,13 @@
 @media screen and (min-width: 992px){
 	section#login{
 		width: 950px;
-		height: 500px;
+		min-height: 280px;
 	}
 	
 	section#login div#imagem{
 		float: right;
 		width: 50%;
-		height: 100%;
+		min-height: 370px;
 	}
 	
 	section#login div#formulario{
@@ -43,9 +45,11 @@
 		width: 50%;
 	}
 	
+	/* 
 	form label{
 		display: inline;
 	}
+	*/
 	
 	body{
 		background-image: linear-gradient(to top, #7C151D, #AA7939);
@@ -56,6 +60,7 @@
 	}
 	
 	div#formulario p{
-		font-size: 1.2em;
+		font-size: 1em;
+		margin: 20px 0px;
 	}
 }
